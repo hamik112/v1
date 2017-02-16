@@ -10,4 +10,5 @@ from django.utils.decorators import method_decorator
 
 class BasePage(View):
     def get(self,request):
+        print("Hello World")
         return render(request,'base.html')
