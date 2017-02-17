@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'',BasePage.as_view()),
     #yo man kese ho:P
+    #### helooo adsajdhkdahdskasd
 ]
