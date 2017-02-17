@@ -20,4 +20,5 @@ from .views import BasePage
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'',BasePage.as_view()),
+    #yo man kese ho:P
 ]
